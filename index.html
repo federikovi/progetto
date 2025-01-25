@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ricette - Recipe Website</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f7f7;
+            color: #333;
+        }
+
+        /* Header styling */
+        header {
+            background-color: #f3a9c5;
+            padding: 20px;
+            text-align: center;
+            color: white;
+            font-size: 2em;
+        }
+
+        /* Container for the recipe cards */
+        .card-container {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            padding: 50px 20px;
+            flex-wrap: wrap;
+        }
+
+        /* General card styling */
+        .card {
+            background-color: #fff;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            width: 250px;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        /* Card hover effect */
+        .card:hover {
+            transform: translateY(-10px);
+        }
+
+        .card img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+        }
+
+        .card h3 {
+            margin: 20px 0;
+            font-size: 1.5em;
+            color: #6a4c93;
+        }
+
+        .card p {
+            padding: 0 10px 20px;
+            font-size: 1em;
+            color: #666;
+        }
+
+        /* Button style */
+        .card a {
+            text-decoration: none;
+            background-color: #f3a9c5;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            display: inline-block;
+            transition: background-color 0.3s ease;
+        }
+
+        .card a:hover {
+            background-color: #ec7b94;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        Ricette - Sito delle Ricette
+    </header>
+
+    <div class="card-container">
+        <!-- Card 1: Ricette di Dolci -->
+        <div class="card">
+            <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExMmE3Z2s2bTJkZ2FuOXd5cm95MnVzZ2kwd2kwcncyM28yMmV5cmJyMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Im6d35ebkCIiGzonjI/giphy.gif" alt="Ricette di Dolci">
+            <h3>Ricette di Dolci</h3>
+            <p>Scopri dolci deliziosi per ogni occasione. Ricette facili e golose.</p>
+            <a href="#">Vedi Ricette</a>
+        </div>
+
+        <!-- Card 2: Ricette di Cucina -->
+        <div class="card">
+            <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExYzA1enRua2R1dXdlaHNxdTl5Zml2ZHViMzRlc25sMjZsenQ2OWhnYyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Sdx4jomSAfL2VqzD0A/giphy.gif" alt="Ricette di Cucina">
+            <h3>Ricette di Cucina</h3>
+            <p>Prepara piatti gustosi e sani per la tua famiglia e amici.</p>
+            <a href="#">Vedi Ricette</a>
+        </div>
+
+        <!-- Card 3: Pasticceria -->
+        <div class="card">
+            <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZThkNWliNmJrdDhuNGQweTVkcDQxMDIwYzQ4M3hzYTBwcmxqcG4zdCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3oKIPCBcZs82sv9nsQ/giphy.gif" alt="Pasticceria">
+            <h3>Pasticceria</h3>
+            <p>Ricette per torte, biscotti e dolci tipici della pasticceria.</p>
+            <a href="#">Vedi Ricette</a>
+        </div>
+    </div>
+
+</body>
+</html>
